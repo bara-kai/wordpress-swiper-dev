@@ -15,7 +15,7 @@
 
 
 <body <?php body_class(); ?>>
-    <div class="swiper swiper1">
+    <div class="swiper hero-swiper">
 
         <div class="swiper-wrapper">
 
@@ -65,6 +65,47 @@
 
         </div><!-- .swiper-wrapper -->
 
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-wrapper">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div><!-- .swiper-button-wrapper -->
+
+    </div><!-- .swiper -->
+
+    <div class="swiper normal-swiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="swiper-slide-body">
+                    <h3 class="swiper-slide-title">VISIT<span>ご来店</span></h3>
+                    <p class="swiper-slide-text">まずは当店までお気を付けてご来店ください。</p>
+                </div><!-- .swiper-slide-body -->
+            </div><!-- .swiper-slide -->
+
+            <div class="swiper-slide">
+                <div class="swiper-slide-body">
+                    <h3 class="swiper-slide-title">ORDER<span>ご注文</span></h3>
+                    <p class="swiper-slide-text">レジカウンターにてお好きなメニューを注文します。フードはショーケースにあります。</p>
+                </div><!-- .swiper-slide-body -->
+            </div><!-- .swiper-slide -->
+
+            <div class="swiper-slide">
+                <div class="swiper-slide-body">
+                    <h3 class="swiper-slide-title">PAY<span>お支払い</span></h3>
+                    <p class="swiper-slide-text">現金またはクレジットカードまたは電子マネーでお支払いできます。</p>
+                </div><!-- .swiper-slide-body -->
+            </div><!-- .swiper-slide -->
+
+            <div class="swiper-slide">
+                <div class="swiper-slide-body">
+                    <h3 class="swiper-slide-title">DRINK<small>&</small>EAT<span>ご飲食</span></h3>
+                    <p class="swiper-slide-text">お好きな席に座り、あとはごゆっくりお楽しみください。</p>
+                </div><!-- .swiper-slide-body -->
+            </div><!-- .swiper-slide -->
+        </div><!-- .swiper-wrapper -->
         <div class="swiper-pagination"></div>
 
         <div class="swiper-button-wrapper">

@@ -1,16 +1,11 @@
-// import Swiper from 'swiper/bundle';
+import Swiper from 'swiper/bundle';
+import { HeroSwiper, NormalSwiper } from './hero-slider';
 
-// var mySwiper = new Swiper('.swiper', {
-//   pagination: {
-//     el: '.swiper-pagination',
-//     type: 'bullets',
-//     clickable: true,
-//   },
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-//   slidesPerView: 1.15,
-//   spaceBetween: 15,
-//   centeredSlides: true,
-// });
+document.addEventListener('DOMContentLoaded', function () {
+  const heroswiper = new HeroSwiper('.hero-swiper');
+  heroswiper.start({
+    delay: 4000,
+  });
+
+  const normalswiper = new NormalSwiper('.normal-swiper');
+});

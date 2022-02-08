@@ -1,10 +1,9 @@
-// import { FreeMode } from 'swiper';
 import Swiper from 'swiper/bundle';
 
 // Javascriptからswiper.min.cssをhtmlのheadタグ内にstyleとして挿入したいときは↓
 // import 'swiper/css/bundle';
 
-export class HeroSlider {
+class HeroSwiper {
   constructor(el) {
     this.el = el;
     this.swiper = this._initSwiper();
@@ -44,3 +43,29 @@ export class HeroSlider {
     this.swiper.autoplay.stop();
   }
 }
+
+class NormalSwiper {
+  constructor(el) {
+    this.el = el;
+    this.swiper = this._initSwiper();
+  }
+
+  _initSwiper() {
+    return new Swiper(this.el, {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      slidesPerView: 1.15,
+      spaceBetween: 15,
+      centeredSlides: true,
+    });
+  }
+}
+
+export { HeroSwiper, NormalSwiper };
