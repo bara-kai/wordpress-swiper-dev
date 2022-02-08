@@ -1,19 +1,21 @@
 {
   "name": "wordpress-swiper-dev",
   "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
   "scripts": {
-    "cache": "npx gulp cache",
-    "dev": "npx gulp build && npx gulp",
-    "build": "npx gulp build --production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-  "keywords": [],
-  "author": "kaibara",
+    "url": "git+https://github.com/bara-kai/wordpress-swiper-dev.git"
+  },
+  "author": "barakai",
   "license": "UNLICENSED",
-  "private": true,
-  "bugs": {},
+  "bugs": {
+    "url": "https://github.com/bara-kai/wordpress-swiper-dev/issues"
+  },
+  "homepage": "https://github.com/bara-kai/wordpress-swiper-dev#readme",
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
