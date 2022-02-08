@@ -1,5 +1,5 @@
 {
-  "name": "asahino-olsteam-theme-dev",
+  "name": "wordpress-swiper-dev",
   "version": "1.0.0",
   "scripts": {
     "cache": "npx gulp cache",
@@ -9,10 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yukinouz/gulp-essentials.git"
-  },
   "keywords": [],
-  "author": "yukinouz",
+  "author": "kaibara",
   "license": "UNLICENSED",
   "private": true,
   "bugs": {},
